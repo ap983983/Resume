@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{
+    margin: 0%;
+    margin:auto;
+    background: linear-gradient(rgba(55, 213, 224, 0.863),#003D74);
+}
+#sidebar{
+    height:100%;
+    width:100%;
+    /* background:#003D74;  */
+    /* color:#fff; */
+    float: left;
+}
+#sidebar .r-img{
+    border: 2px solid rgb(17, 106, 184);
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width:200px;
+    margin: 20px auto;
+}
+.per-info .per-head{
+    padding : 5px 0px 5px 25px;
+    margin:10px 0px 20px 0px;
+    font-family: 'Merriweather', serif;
+    /* background: #002E58; */
+    overflow: hidden;
+}
+.per-info .content{
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content p{font-size: small;}
+
+.content a {
+    columns: #111111;; 
+}
+.text-head{
+    font-family: 'Slabo 27px', serif;
+}
+.text-content{
+    font-family: 'Montserrat', sans-serif;   
+}
