@@ -3,107 +3,23 @@
 * {
   font-family: 'Hubballi', cursive;
 }
-.left-sec {
-    position: fixed;
-    top: 0;
-    height: 100%;
-    background: linear-gradient(24deg, rgba(12,60,117,1) 0%, rgba(13,64,143,1) 41%, rgba(0,125,255,1) 100%);
+.container-fluid{
+  height: 50rem; 
 }
-.right-sec {
-  background: #1a1a1c9c;
-  position: fixed;
-  right:0;
-  padding: 3%;
+
+.liner-gradient{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.liner-gradient2 {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
 
-  .centered .img {
-    border-radius: 50%;
-  }
-  
+.home-section {
+  transform: translateY(50%);
+}
 
-.nav-link:visited {
+.card-link:visited {
   color: #FFF;
-}
-.nav-link:hover{
-  color: #f8f9facb;
-}
-
-.text-style{
-  font-size: 7vw;
-}
-
-
-/* ------------ */
-.soft-circle{
-  height:100px;
-  width: 100px;
-  position: relative;  
-  border-radius:50%;
-}
-.soft-circle .inside{
-  position: absolute;
-  z-index: 6;
-  top: 50%;
-  left: 50%;
-  height: 80px;
-  width: 80px;
-  margin: -40px 0 0 -40px;
-  background: #FFF;
-  border-radius: 100%;
-}
-.soft-circle .key{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  z-index:10;
-  font-size:18px;
-  font-weight:500;
-  color:#4158d2;
-}
-.soft-circle .shade{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #eee;
-  -webkit-border-radius: 100%;
-  clip: rect(0px, 100px, 100px, 50px);
-}
-.circle .shade .progressing{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  -webkit-border-radius: 100%;
-  clip: rect(0px, 50px, 100px, 0px);
-  background: #4158d2;
-}
-.circle .left .progressing{
-  z-index:1;
-  animation: left 0.5s linear both;
-}
-@keyframes left{
-  100%{
-    transform: rotate(180deg);
-  }
-}
-.circle .right {
-  transform: rotate(180deg);
-  z-index:3;
- 
-}
-.circle .right .progressing{
-  animation: right 0.5s linear both;
-  animation-delay: 0.5s;
-}
-@keyframes right{
-  100%{
-    transform: rotate(160deg);
-  }
 }
