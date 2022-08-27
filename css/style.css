@@ -20,6 +20,12 @@
   transform: translateY(50%);
 }
 
-.card-link:visited {
+.card-link:visited, .card-link:active, .card-link:link{
   color: #FFF;
+}
+
+.back-image{
+  background: url("../images/Untitled\ design.png") no-repeat; 
+  background-position: right;
+  background-position-y: top;
 }
