@@ -29,3 +29,14 @@
   background-position: right;
   background-position-y: top;
 }
+
+@media screen and  (max-width: 576px){
+   .home-section {
+    transform: translateY(5%);
+    text-align: center;
+   }
+
+   .back-image{
+    background: none;
+   }
+}
